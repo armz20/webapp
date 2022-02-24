@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hello World this should display if it is working
+        Hello World
       </header>
     </div>
   );
