@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f74a4a;
 }
 
 @keyframes App-logo-spin {
@@ -148,3 +148,54 @@ button:hover {
   font-size: 1.25rem;
   font-weight: bold;
 }
+
+.SignUp {
+  text-align: center;
+  background-color:rgb(255, 255, 255);
+  }
+
+.label{
+  display: block;
+  font-size: larger;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .error{
+  display: block;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
+  .success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
