@@ -17,6 +17,7 @@ export const NavLink = styled(Link)`
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
+    font-size: 22px;
     height: 100%;
     cursor: pointer;
     &.active {
@@ -60,6 +61,7 @@ export const NavBtnLink = styled(Link)`
     padding: 10px 22px;
     color: #fff;
     border: none;
+    font-size: 22px;
     outline: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
