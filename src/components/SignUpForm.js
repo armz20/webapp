@@ -58,7 +58,7 @@ const SignUpForm = ({submitForm}) => {
     <div className="container">
             <div className="app-wrapper">
                 <div>
-                <h2 className="title">Get Started</h2>
+                <h2 className="title">Get Started Now Now Now</h2>
                 </div>
                 <form className="form-wrapper" onSubmit={onSubmit}>
                     <div className="name">
