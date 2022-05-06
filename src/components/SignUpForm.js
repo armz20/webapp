@@ -40,7 +40,7 @@ const SignUpForm = ({submitForm}) => {
 
   function onSubmit(e) {
      e.preventDefault();
-    return fetch('http://127.0.0.1:8000/auth/registration', {
+    return fetch('/auth/registration', {
       method: 'POST',
       credentials: 'omit',
       headers: {
@@ -51,14 +51,17 @@ const SignUpForm = ({submitForm}) => {
     }).then(resp => resp.json()).then(data => {
       changeResponse(data)
     }).catch(error => console.log('error ->', error))
+
+    
   }
+    
 
 
   return (
     <div className="container">
             <div className="app-wrapper">
                 <div>
-                <h2 className="title">Get Started Now Now Now</h2>
+                <h2 className="title">Get Started Now</h2>
                 </div>
                 <form className="form-wrapper" onSubmit={onSubmit}>
                     <div className="name">

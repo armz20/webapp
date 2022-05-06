@@ -1,0 +1,115 @@
+a{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.profilepic {
+
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: inline;
+    margin-left: 500px;
+    margin-right: auto;
+}
+.options {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+.options1 {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logoutbtn {
+    font-size: 23px;
+    padding: 17px;
+}
+
+.prefbtn {
+    font-size: 23px;
+    padding: 17px;
+    background-color: black;
+    color: white;
+}
+.titlelink 
+{
+    color: black;
+    background-color:transparent;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.notify {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+.followedusers{
+    padding: 20px;
+    font-size: 15px;
+    color: black;
+    margin-left: 150px;
+
+}
+
+.followtitle {
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.users {
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    text-align: center;
+
+}
+
+.user-button {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+
+
+}
+.user1{
+    margin: auto;
+}
+
+.userfeat {
+    vertical-align: top;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline;
+    background-color: white;
+    color: black;
+
+}
+.userfeat1 {
+    vertical-align: top;
+    text-align: center;
+    display: inline;
+background-color: transparent; 
+   color: black;
+   font-size: 16px;
+
+}
